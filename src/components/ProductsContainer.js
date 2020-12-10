@@ -3,7 +3,7 @@ import Product from './Product';
 import Loading from './Loading';
 import { useStateValue } from '../app/StateProvider';
 import {getData} from '../app/reducer'
-import _ from 'lodash';
+
 
 function ProductsContainer() {
     const [ {products, loading, query, num , priceby, searchArray, page, shops}, dispatch] = useStateValue();
